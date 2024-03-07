@@ -72,18 +72,23 @@ To make my dashboard dynamic and get even more specific information, I created t
 ### Insights
 
 1. **Top Products**: AAA Batteries, AA batteries, USB-C Charging Cable, Lightning Charging Cable, and Wired Headphones emerged as the top 5 best-selling products, with AAA Batteries leading at 31,012 units sold.
+
 ![Top products](https://github.com/Idorenyin-Udoh/Sales-Analytics-Project/assets/162564901/e93f53ea-30d5-4199-816a-2e91975b1340)
 
 2. **Bottom Products**: LG Dryer, LG Washing Machine, Varebadd Phone, 20in Monitor, and ThinkPad Laptop were the top 5 worst-selling  products, with LG Dryer selling only 646 units the entire year.
+
 ![Bottom products](https://github.com/Idorenyin-Udoh/Sales-Analytics-Project/assets/162564901/d3111d04-0f7d-46a9-aedb-8f1918cf405b)
 
 3. **Geographical Variations**: San Francisco led in sales, followed by Los Angeles, while Austin recorded the least sales.
-   ![City sales](https://github.com/Idorenyin-Udoh/Sales-Analytics-Project/assets/162564901/8a85d33f-3f14-4497-80f4-3125e8f362ba)
+
+ ![City sales](https://github.com/Idorenyin-Udoh/Sales-Analytics-Project/assets/162564901/8a85d33f-3f14-4497-80f4-3125e8f362ba)
 
 4. **Monthly Performance**: December recorded the highest sales with over 4.6 million dollars, while January had the lowest sales with less than 2 million dollars.
+
    ![Monthly sales](https://github.com/Idorenyin-Udoh/Sales-Analytics-Project/assets/162564901/8c06d8fe-487e-4574-9d45-a57d82325ed6)
 
 5. **Daily Trends**: Wednesday and Tuesday had higher average sales than other days, while Thursday was the day with the least sales activity.
+
    ![Daily sales](https://github.com/Idorenyin-Udoh/Sales-Analytics-Project/assets/162564901/7ca4a91f-873e-4199-85ca-ff4fa2f407f4)
 
 
