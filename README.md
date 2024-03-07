@@ -5,6 +5,10 @@
 - [Problem Statement](#problem-statement)
 - [Objectives](#objectives)
 - [The Data](#the-data)
+- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+- [Data Exploration](#data-exploration)
+- [Insights](#insights)
+- [Recommendations](#recommendations)
 - [Next Steps](#next-steps)
 
 ### Problem Statement
@@ -37,18 +41,19 @@ The dataset for this project was provided by [Meriskill](https://www.linkedin.co
 10. City
 11. Hour
 
+
 ### Data Cleaning and Preparation
 
 Once I downloaded and imported the data into Excel, I proceeded to clean and prepare it for analysis. Firstly, I created a new version of my data in case I needed to drop some columns or make other changes. In the newly created worksheet, the following steps were taken: 
 
-- Duplicate check: I made sure to confirm that all the rows in the dataset were unique.
-- Missing values: I did a thorough check for blanks in all the columns. There were no missing values.
-- Data types: All columns were in the General format which is fine for what I need to do.
-- Outliers: The majority of sales per order were below $200, resulting in a skewed distribution but that was expected. Also, most of the orders were for a single quantity of a product which is also fine.
-- 2020 transactions: Even though it was a 2019 dataset, the transactions recorded on the first day of 2020 were included. These were deleted to maintain the integrity of the dataset for the specified year.
-- Categorical variables: I examined the categorical variables for errors in spellings and other unexpected values. Again, everything was fine.
-- Column removal: Even though I wouldn't need some columns (like the purchase address column) for my current task, I decided to keep them for potential future analysis.
-- Data extraction: For clearer analysis, I extracted the month and day of the week from the order date column using =TEXT(G2, “mmmm”) and =TEXT(G2, “dddd”) respectively. So, I had December instead of 12 and Monday instead of 1. I then deleted the original month column (whose values were recorded in numbers).
+- **Duplicate check**: I made sure to confirm that all the rows in the dataset were unique.
+- **Missing values**: I did a thorough check for blanks in all the columns. There were no missing values.
+- **Data types**: All columns were in the General format which is fine for what I need to do.
+- **Outliers**: The majority of sales per order were below $200, resulting in a skewed distribution but that was expected. Also, most of the orders were for a single quantity of a product which is also fine.
+- **2020 transactions**: Even though it was a 2019 dataset, the transactions recorded on the first day of 2020 were included. These were deleted to maintain the integrity of the dataset for the specified year.
+- **Categorical variables**: I examined the categorical variables for errors in spellings and other unexpected values. Again, everything was fine.
+- **Column removal**: Even though I wouldn't need some columns (like the purchase address column) for my current task, I decided to keep them for potential future analysis.
+- **Data extraction**: For clearer analysis, I extracted the month and day of the week from the order date column using =TEXT(G2, “mmmm”) and =TEXT(G2, “dddd”) respectively. So, I had December instead of 12 and Monday instead of 1. I then deleted the original month column (whose values were recorded in numbers).
 
 ### Data Exploration
 
@@ -66,11 +71,22 @@ To make my dashboard dynamic and get even more specific information, I created t
 
 ### Insights
 
-1. Top Products: AAA Batteries, AA batteries, USB-C Charging Cable, Lightning Charging Cable, and Wired Headphones emerged as the top 5 best-selling products, with AAA Batteries leading at 31,012 units sold.
-2. Bottom Products: LG Dryer, LG Washing Machine, Varebadd Phone, 20in Monitor, and ThinkPad Laptop were the top 5 worst-selling  products, with LG Dryer selling only 646 units the entire year.
-3. Geographical Variations: San Francisco led in sales, followed by Los Angeles, while Austin recorded the least sales.
-4. Monthly Performance: December recorded the highest sales with over 4.6 million dollars, while January had the lowest sales with less than 2 million dollars.
-5. Daily Trends: Wednesday and Tuesday had higher average sales than other days, while Thursday was the day with the least sales activity.
+1. **Top Products**: AAA Batteries, AA batteries, USB-C Charging Cable, Lightning Charging Cable, and Wired Headphones emerged as the top 5 best-selling products, with AAA Batteries leading at 31,012 units sold.
+![Top products](https://github.com/Idorenyin-Udoh/Sales-Analytics-Project/assets/162564901/e93f53ea-30d5-4199-816a-2e91975b1340)
+
+2. **Bottom Products**: LG Dryer, LG Washing Machine, Varebadd Phone, 20in Monitor, and ThinkPad Laptop were the top 5 worst-selling  products, with LG Dryer selling only 646 units the entire year.
+![Bottom products](https://github.com/Idorenyin-Udoh/Sales-Analytics-Project/assets/162564901/d3111d04-0f7d-46a9-aedb-8f1918cf405b)
+
+3. **Geographical Variations**: San Francisco led in sales, followed by Los Angeles, while Austin recorded the least sales.
+   ![City sales](https://github.com/Idorenyin-Udoh/Sales-Analytics-Project/assets/162564901/8a85d33f-3f14-4497-80f4-3125e8f362ba)
+
+4. **Monthly Performance**: December recorded the highest sales with over 4.6 million dollars, while January had the lowest sales with less than 2 million dollars.
+   ![Monthly sales](https://github.com/Idorenyin-Udoh/Sales-Analytics-Project/assets/162564901/8c06d8fe-487e-4574-9d45-a57d82325ed6)
+
+5. **Daily Trends**: Wednesday and Tuesday had higher average sales than other days, while Thursday was the day with the least sales activity.
+   ![Daily sales](https://github.com/Idorenyin-Udoh/Sales-Analytics-Project/assets/162564901/7ca4a91f-873e-4199-85ca-ff4fa2f407f4)
+
+
 
 ### Recommendations
 
