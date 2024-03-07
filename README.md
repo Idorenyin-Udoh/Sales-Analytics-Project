@@ -41,6 +41,9 @@ The dataset for this project was provided by [Meriskill](https://www.linkedin.co
 10. City
 11. Hour
 
+![Screenshot (63)](https://github.com/Idorenyin-Udoh/Sales-Analytics-Project/assets/162564901/e440cdea-60d6-4b75-9f8d-cf859283dcca)
+
+
 
 ### Data Cleaning and Preparation
 
