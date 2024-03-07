@@ -91,6 +91,9 @@ To make my dashboard dynamic and get even more specific information, I created t
 
    ![Daily sales](https://github.com/Idorenyin-Udoh/Sales-Analytics-Project/assets/162564901/7ca4a91f-873e-4199-85ca-ff4fa2f407f4)
 
+### Dashboard
+
+![Pablo Stores Sales Dashboard](https://github.com/Idorenyin-Udoh/Sales-Analytics-Project/assets/162564901/73db7ec4-52bf-44bb-9f74-7b929584052e)
 
 
 ### Recommendations
